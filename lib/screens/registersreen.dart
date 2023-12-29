@@ -12,128 +12,128 @@ class _RegisterState extends State<Register> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.white,//Color of the Scaffold
       body: SafeArea(
-          child: Column(
+          child: Column( //Use Column for vertical arrangement
             children: [
               Container(
-                margin: EdgeInsets.only(top: 30,bottom: 10, left: 50),
-                width: 200,
-                height: 70,
-                color: Colors.transparent,
+                margin: EdgeInsets.only(top: 30,bottom: 10, left: 50),//Margin between the Container and the edges of the device
+                width: 200,//Width of the Container
+                height: 70,//Height of the Container
+                color: Colors.transparent,//Color of the Container
                 child: Text('ASCEE',
                 style: TextStyle(
-                  color: Colors.blueAccent,
-                  fontSize: 54,
-                  fontWeight: FontWeight.bold,
+                  color: Colors.blueAccent,//Color of the Text
+                  fontSize: 54,//Size of the Text
+                  fontWeight: FontWeight.bold,//Thickness of the Text
                     shadows: [
                       Shadow(
-                        color: Colors.black,
-                        offset: Offset(2, 2)
+                        color: Colors.black,//Color of the Shadow
+                        offset: Offset(2, 2)//Offset
                       ),
                     ],
                 ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(left: 50, ),
-                color: Colors.transparent,
-                width: 240,
-                height: 30,
-                child: Text('Developer Student Club',
+                margin: EdgeInsets.only(left: 50, ),//Margin between the Container and the edges of the device
+                color: Colors.transparent,//Color of the Container
+                width: 240,//Width of the Container
+                height: 30,//Height of the Container
+                child: Text('Developer Student Club',//Text
                 style: TextStyle(
-                  color: Colors.grey,
-                  fontSize: 20,
+                  color: Colors.grey,//Color of the Text
+                  fontSize: 20,//Size of the Text
                 ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(left: 100,),
-                width: 240,
-                height: 30,
-                color: Colors.transparent,
-                child: Text('4:00 pm - 8:00 pm',
+                margin: EdgeInsets.only(left: 100,),//Margin between the Container and the edges of the device
+                width: 240,//Width of the Container
+                height: 30,//Height of the Container
+                color: Colors.transparent,//Color of the Container
+                child: Text('4:00 pm - 8:00 pm',//Text
                 style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 20,//Size of the Text
                 ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(left: 100, top: 1,),
-                width: 300,
-                height: 30,
-                color: Colors.transparent,
-                child: Text('20th March 2022, Sunday',
+                margin: EdgeInsets.only(left: 100, top: 1,),//Margin between the Container and the edges of the device
+                width: 300,//Width of the Container
+                height: 30,//Height of the container
+                color: Colors.transparent,//Color of the Container
+                child: Text('20th March 2022, Sunday',//Text
                 style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 20,//Size of the Text
                 ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(left: 100, top: 1, bottom: 8,),
-                width: 210,
-                height: 30,
-                color: Colors.transparent,
-                child: Text('Seminar Hall',
+                margin: EdgeInsets.only(left: 100, top: 1, bottom: 8,),//Margin between the Container and the edges of the device
+                width: 210,//Width of the Container
+                height: 30,//Height of the Container
+                color: Colors.transparent,//Color of the Container
+                child: Text('Seminar Hall',//Text
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 20,//Size of the Text
                   ),
                 ),
               ),
               Container(
-                width: 450,
-                height: 240,
-                color: Colors.transparent,
+                width: 450,//Width of the Container
+                height: 240,//Height of the Container
+                color: Colors.transparent,//Color of the Container
                 child: Image(
                     image: AssetImage('images/pictures.jpeg'),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 10,),
-                width: 300,
-                height: 60,
-                color: Colors.transparent,
+                margin: EdgeInsets.only(top: 10,),//Margin between the Container and the edges of the device
+                width: 300,//Width of the Container
+                height: 60,//Height of the Container
+                color: Colors.transparent,//Color of the Container
                 child: Text('About the Event',
                 style: TextStyle(
-                  color: Colors.blueAccent,
-                  fontSize: 35,
-                  fontWeight: FontWeight.bold,
+                  color: Colors.blueAccent,//Color of the Text
+                  fontSize: 35,//Size of the Text
+                  fontWeight: FontWeight.bold,//Thickness of the Text
                 ),
                 ),
               ),
-              SizedBox(
+              SizedBox(  //Add some space between the texts
                 height: 1,
                 width: 350,
-                child: Divider(
-                  color: Colors.black,
+                child: Divider(  //Line that divides the Texts
+                  color: Colors.black,//Color of the Text
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 10,),
-                color: Colors.transparent,
-                height: 140,
-                width: 350,
+                margin: EdgeInsets.only(top: 10,),//Margin between the Container and the edges of the device
+                color: Colors.transparent,//Color of the Container
+                height: 140,//Height of the Container
+                width: 350,//Width of the Container
                 child: Text('we are thrilled to announce ASCEE - An event by Developer Student Club GIT this Sunday 20th March 2022 from 4pm onwards',
                 style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold
+                  fontSize: 20,//Size of the Text
+                  fontWeight: FontWeight.bold//Thickness of the Text
                 ),
                 ),
               ),
               GestureDetector(
-                onTap: (){
+                onTap: (){  //Add you onTap logic here
                   Navigator.push(context, MaterialPageRoute(builder: (context) => Ascee()));
                 },
                 child: Container(
-                    padding: EdgeInsets.symmetric(vertical: 10, horizontal: 35,),
-                    margin: EdgeInsets.only(top: 20,),
-                    width: 250,
-                    height: 80,
-                    color: Colors.blueAccent,
+                    padding: EdgeInsets.symmetric(vertical: 10, horizontal: 35,),//Space between the child and the container
+                    margin: EdgeInsets.only(top: 20,),//Space between the Container and the edges of the device
+                    width: 250,//Width of the container
+                    height: 80,//Height of the container
+                    color: Colors.blueAccent,//Color of the cintainer
                     child: Text('Register',
                       style: TextStyle(
-                          fontSize: 40,
-                          fontWeight: FontWeight.bold
+                          fontSize: 40,//Size of the text
+                          fontWeight: FontWeight.bold//Thickness of the text
                       ),
                     ),
                 ),

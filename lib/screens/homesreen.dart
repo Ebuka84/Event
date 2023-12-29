@@ -12,7 +12,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context){
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.white,//color of the scaffold
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -26,9 +26,9 @@ class _HomePageState extends State<HomePage> {
                Navigator.push(context, MaterialPageRoute(builder: (context) => Login()));
              },
            child:  Container(
-             height: 50,
-             width: 150,
-             color: Colors.green,
+             height: 50,//height of the container
+             width: 150,//width of the container
+             color: Colors.green,//color of the container
              child: Center(
                child: Text('GO TO LOGIN'),
              ),

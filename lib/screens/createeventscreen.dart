@@ -12,45 +12,45 @@ class _CreateeventState extends State<Createevent> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.white,//color of the scaffold
       body: SafeArea(
           child: Column(
             children: [
               Container(
-                margin: EdgeInsets.only(left: 80,top: 80,),
-                width: 300,
-                height: 70,
-                color: Colors.transparent,
+                margin: EdgeInsets.only(left: 80,top: 80,),//space between the Container and the edges of the device
+                width: 300,//width of the container
+                height: 70,//height of the container
+                color: Colors.transparent,//color of the container
                 child: Text('Welcome',
                 style: TextStyle(
-                  fontSize: 60,
-                  fontWeight: FontWeight.bold
+                  fontSize: 60,//size of the text
+                  fontWeight: FontWeight.bold//thickness of the text
                 ),
                 ),
               ),
               Container(
-                padding: EdgeInsets.only(left: 50,),
-                margin: EdgeInsets.only(left: 80,top: 0,),
-                width: 300,
-                height: 70,
-                color: Colors.transparent,
+                padding: EdgeInsets.only(left: 50,),//space betwwen the container and the child
+                margin: EdgeInsets.only(left: 80,top: 0,),//space between the Container and the edges of the device
+                width: 300,//width of the container
+                height: 70,//height of the container
+                color: Colors.transparent,//color of the container
                 child: Text('to the',
                   style: TextStyle(
-                      fontSize: 60,
-                      fontWeight: FontWeight.bold
+                      fontSize: 60,//size of the text
+                      fontWeight: FontWeight.bold//thickness of the text
                   ),
                 ),
               ),
               Container(
-                padding: EdgeInsets.only(left: 70,),
-                margin: EdgeInsets.only(left: 80,top: 0,),
-                width: 300,
-                height: 80,
-                color: Colors.transparent,
+                padding: EdgeInsets.only(left: 70,),//space betwwen the container and the child
+                margin: EdgeInsets.only(left: 80,top: 0,),//space between the Container and the edges of the device
+                width: 300,//width of the container
+                height: 80,//height of the container
+                color: Colors.transparent,//color of the container
                 child: Text('Club',
                   style: TextStyle(
-                      fontSize: 60,
-                      fontWeight: FontWeight.bold
+                      fontSize: 60,//size of the text
+                      fontWeight: FontWeight.bold//thickness of the text
                   ),
                 ),
               ),
@@ -59,29 +59,29 @@ class _CreateeventState extends State<Createevent> {
                   Navigator.push(context, MaterialPageRoute(builder: (context) => Sessions()));
                 },
                 child: Container(
-                  padding: EdgeInsets.only(left: 50,top: 10,),
-                  margin: EdgeInsets.only(left: 80,top: 20,),
-                  width: 300,
-                  height: 80,
-                  color: Colors.grey,
+                  padding: EdgeInsets.only(left: 50,top: 10,),//space betwwen the container and the child
+                  margin: EdgeInsets.only(left: 80,top: 20,),//space between the Container and the edges of the device
+                  width: 300,//width of the container
+                  height: 80,//height of the container
+                  color: Colors.grey,//color of the container
                   child: Text('Sessions',
                     style: TextStyle(
-                        fontSize: 45,
-                        fontWeight: FontWeight.bold
+                        fontSize: 45,//size of the text
+                        fontWeight: FontWeight.bold//thickness of the text
                     ),
                   ),
                 ),
               ),
               Container(
-                padding: EdgeInsets.only(left: 20,top: 10,),
-                margin: EdgeInsets.only(left: 80,top: 20,),
-                width: 300,
-                height: 80,
-                color: Colors.grey,
+                padding: EdgeInsets.only(left: 20,top: 10,),//space betwwen the container and the child
+                margin: EdgeInsets.only(left: 80,top: 20,),//space between the Container and the edges of the device
+                width: 300,//width of the container
+                height: 80,//height of the container
+                color: Colors.grey,//color of the container
                 child: Text('Creats Events',
                   style: TextStyle(
-                      fontSize: 38,
-                      fontWeight: FontWeight.bold,
+                      fontSize: 38,//size of the text
+                      fontWeight: FontWeight.bold,//thickness of the text
                   ),
                 ),
               ),
